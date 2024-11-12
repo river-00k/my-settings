@@ -1,0 +1,36 @@
+[
+  {
+    "key": "[Semicolon] f",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "s v",
+    "command": "workbench.action.splitEditorRight",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusRightGroup",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "[Semicolon] g",
+    "command": "workbench.action.findInFiles",
+    "when": "editorTextFocus && !inDebugRepl && vim.mode == 'Normal'"
+  }
+]
